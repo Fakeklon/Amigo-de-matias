@@ -1,0 +1,54 @@
+Body {
+    margin: 0;
+	overflow-x: hidden;
+}
+#header{
+	width: 100vw;
+	height: ;
+	background-color: white ;
+	border: 2px solid white;
+}
+#main {
+	width: 100vw;
+	height: ;
+	background-color: rgb(38, 69, 121);
+	border: 2px solid black;
+}
+.Contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+p{
+	font-size: 45px;
+}
+h1 {
+	text-align: center;
+	font-family: cursive;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+h3{
+	text-align: center;
+	font-family: sans-serif;
+}
+.Categoria {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.navegador {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center
+}
+div > .barra {
+	background-color: turquoise;
+	border: 2px solid; color: green;
+	padding-left: 100px;
+	padding-right: 100px;
+}
